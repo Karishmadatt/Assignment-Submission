@@ -1,6 +1,6 @@
 1. Why are functions advantageous to have in your programs?
 
-ans: Having functions in the programs increase the reusability. It reduce the effort and save the time also the code will look clear and it will be easy
+ans: Having functions in the programs increase the reusability. It reduce the effort and save the time also the code will look clean and it will be easy
      to debug the code.
 
 2. When does the code in a function run: when it's specified or when it's called?
