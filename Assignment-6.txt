@@ -1,0 +1,57 @@
+1. What are escape characters, and how do you use them?
+
+ans:Escape characters are characters that are generally used to perform certain tasks and their usage in code directs the compiler to take 
+    a suitable action mapped to that character.
+
+2. What do the escape characters n and t stand for?
+
+ans: n mean go to new line and t means tab.
+
+3. What is the way to include backslash characters in a string?
+
+ans: eg "I am \"still\" learning. "
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
+   word Howl's not escaped a problem?
+
+ans: Because we have used the Double quotes in the beginning and end of the string.
+
+5. How do you write a string of newlines if you don't want to use the n character?
+
+ans: Multiline line string will allow the next line without using the \n.
+
+6. What are the values of the given expressions?
+   'Hello, world!'[1]
+   'Hello, world!'[0:5]
+   'Hello, world!'[:5]
+   'Hello, world!'[3:]
+
+ans: 'e'
+     'Hello'
+     'Hello'
+     'lo world!'
+
+7. What are the values of the following expressions?
+   'Hello'.upper()
+   'Hello'.upper().isupper()
+   'Hello'.upper().lower()
+
+ans: HELLO 
+     True 
+     hello
+
+8. What are the values of the following expressions?
+   'Remember, remember, the fifth of July.'.split()
+   '-'.join('There can only one.'.split())
+
+ans:['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+
+    'There-can-be-only-one.
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+
+ans: rjust() , ljust() and center().
+
+10. What is the best way to remove whitespace characters from the start or end?
+
+ans: lstrip() will remove the space from the left end and rstrip() will remove the space from the right end.
